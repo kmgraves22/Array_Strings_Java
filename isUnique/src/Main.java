@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Main {
    public static void main(String[] args) {
-      Scanner reader = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
       UI.prompt();
-      String in = reader.nextLine();
+      String in = input.nextLine();
       isUnique(in);
-      reader.close();
+      input.close();
       System.exit(0);
    }
 
