@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
       reader.close();
       System.exit(0);
    }
-   
+
    private static void isUnique(String in) {
       char a;
       for (int i = 0; i < in.length(); i++) {
